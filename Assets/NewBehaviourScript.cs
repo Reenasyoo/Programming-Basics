@@ -87,7 +87,7 @@ public class NewBehaviourScript : MonoBehaviour
         int x = 5;
         int y = 5;
 
-        if (x == y)
+        if (x > y)
         {
             Debug.Log("was it so hard?");
         }
